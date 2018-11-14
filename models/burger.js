@@ -10,12 +10,19 @@ var burger = {
 
   },
 
-  insertOne: function(colToSearch, colToSearch2, valToInsert,valToInsert2,cb) {
-    orm.insertOne("burgers", colToSearch, colToSearch2, valToInsert,valToInsert2,  function(res) {
+  insertOne: function(cols, vals, cb) {
+    orm.insertOne("burgers", cols, vals,  function(res) {
       cb(res);
     });
   },
   
+  updateOne: function(objColVals, condition, cb) {
+    orm.updateOne("burgers", objColVals, condition, function(res) {
+      cb(res);
+    });
+  }
+
+
 
 }; //cierre var burger
 
