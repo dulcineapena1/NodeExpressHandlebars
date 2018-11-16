@@ -51,7 +51,7 @@ var orm = {
     var queryString = "SELECT * FROM ?? ";
     connection.query(queryString, [tableInput], function(err,result) {
       if (err) throw err;
-      console.log("línea 15 ORM",result);
+      console.log(" ORM",result);
       //aquí abajo siempre tiene que ir un callback con el resultado, de lo contrario no podrán tomarlo los otros archivos
       cb(result);
     });
