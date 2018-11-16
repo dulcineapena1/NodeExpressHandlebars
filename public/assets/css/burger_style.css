@@ -15,6 +15,13 @@ li{
     padding-left: 17px;
 }
 
+.imagen{
+    width: 10%;
+    height: 50%;
+    margin: auto;
+    display: inherit;
+}
+
 h1{
     text-align: center;
     color: red;
@@ -29,8 +36,13 @@ h2{
     margin: auto;
 }
 
-.bloque{
+.bloque1{
     float: left;
+    padding-right: 13%;
+}
+
+.bloque2{
+    float: right;
     padding-right: 13%;
 }
 
