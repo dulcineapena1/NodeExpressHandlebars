@@ -1,6 +1,6 @@
 # NodeExpressHandlebars
 
-Node JS Aplication using:
+Node JS Application using:
 *Express
 *Handlebars templating
 *SQl
